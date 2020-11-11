@@ -24,8 +24,7 @@ public static int removeDuplicateElements(int arr[], int n){
     public static void main (String[] args) {  
         int arr[] = {8,16,16,32,64,64,64,128};  
         int length = arr.length;  
-        length = removeDuplicateElements(arr, length);  
-        //printing array elements  
+        length = removeDuplicateElements(arr, length);    
         for (int i=0; i<length; i++)  
            System.out.print(arr[i]+" ");  
     }  
